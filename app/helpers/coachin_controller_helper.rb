@@ -1,0 +1,2 @@
+module CoachinControllerHelper
+end
