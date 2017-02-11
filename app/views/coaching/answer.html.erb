@@ -1,2 +1,9 @@
-<h1>CoachingController#answer</h1>
-<p>Find me in app/views/coaching_controller/answer.html.erb</p>
+
+<form action="/answer">
+  <label for="question">Speak to your coach</label>
+  <input type="text" id="question" name="query" placeholder="Hello, I am your coach, what did you want to tell me?">
+  <input type="submit" value="Go on!">
+</form>
+
+
+<%= link_to "Ask a new question", ask_path %>
